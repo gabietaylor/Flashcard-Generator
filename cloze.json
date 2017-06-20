@@ -1,25 +1,10 @@
 {
-    "front": "George ... was the first president of the United States.",
-    "cloze": "Washington"
+    "front": "The Galilean moons orbit ... ",
+    "cloze": "Jupiter"
+}, {
+    "front": "Phobos and Deimos are moons of ... ",
+    "cloze": "Mars"
+}, {
+    "front": "The brightest planet in the night sky is ... ",
+    "cloze": "Venus"
 }
-/*,
-{
-	"front": "The ... was an agreement signed by British and American leaders that stated the United States of America was a free and independent country.",
-	"cloze": "Treaty of Paris"
-},
-{
-	"front": "The ... were an English relihious sect who hoped to 'purify' the Anglican church of Roman Catholic traces in practice & organizations.",
-	"cloze": "Puritans"
-},
-{
-	"front": "In 1807, the ... Act prohiibited all foreign trade.",
-	"cloze": "Embargo"
-},
-{
-	"front": "The ... War was the term used to describe World War I at the time of the war.",
-	"cloze": "Great"
-},
-{
-	"front": "Thomas ... is credited with the invention of the incandescent lightbulb.",
-	"cloze": "Edison"
-}*/
