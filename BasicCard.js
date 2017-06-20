@@ -26,23 +26,19 @@ var questionThree = new BasicCard(
 //console.log(questionThree.back);
 
 // Start Inquire Prompt
-inquirer.prompt([
-    {
-        type: 'input',
-        message: questionOne.front,
-        name: 'answerOne'
-    },
-    {
-        type: 'input',
-        message: questionTwo.front,
-        name: 'answerTwo'
-    },
-    {
-        type: 'input',
-        message: questionThree.front,
-        name: 'answerThree'
-    }
-]).then(function(inquirer) {
+inquirer.prompt([{
+    type: 'input',
+    message: questionOne.front,
+    name: 'answerOne'
+}, {
+    type: 'input',
+    message: questionTwo.front,
+    name: 'answerTwo'
+}, {
+    type: 'input',
+    message: questionThree.front,
+    name: 'answerThree'
+}]).then(function(inquirer) {
     if (inquirer.answerOne === questionOne.back) {
         console.log('Correct!')
     } else {
