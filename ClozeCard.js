@@ -21,25 +21,25 @@ console.log(questionOneCloze.fullText);
 var brokenCloze = new ClozeCard("This doesn't work", "oops");
 
 // Question Two Cloze
-var questionOneCloze = new ClozeCard(
+var questionTwoCloze = new ClozeCard(
     "George Washington was the first president of the United States.", "George Washington");
 // "George Washington"
-console.log(questionOneCloze.cloze); 
+console.log(questionTwoCloze.cloze); 
 // " ... was the first president of the United States.
-console.log(questionOneCloze.partial);
+console.log(questionTwoCloze.partial);
 // "George Washington was the first president of the United States.
-console.log(questionOneCloze.fullText);
+console.log(questionTwoCloze.fullText);
 // Should throw or log an error because "oops" doesn't appear in "This doesn't work"
 var brokenCloze = new ClozeCard("This doesn't work", "oops");
 
 // Question Three Cloze
-var questionOneCloze = new ClozeCard(
+var questionThreeCloze = new ClozeCard(
     "George Washington was the first president of the United States.", "George Washington");
 // "George Washington"
-console.log(questionOneCloze.cloze); 
+console.log(questionThreeCloze.cloze); 
 // " ... was the first president of the United States.
-console.log(questionOneCloze.partial);
+console.log(questionThreeCloze.partial);
 // "George Washington was the first president of the United States.
-console.log(questionOneCloze.fullText);
+console.log(questionThreeCloze.fullText);
 // Should throw or log an error because "oops" doesn't appear in "This doesn't work"
 var brokenCloze = new ClozeCard("This doesn't work", "oops");
