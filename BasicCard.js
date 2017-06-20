@@ -9,26 +9,20 @@ var BasicCard = function(front, back) {
 
 // Question/Answer One
 var questionOne = new BasicCard(
-    "Who was the first president of the United States?", "George Washington");
-// "Who was the first president of the United States?"
+    "The Galilean moons orbit what planet?", "Jupiter");
 //console.log(questionOne.front); 
-// "George Washington"
 //console.log(questionOne.back); 
 
 // Question/Answer Two
 var questionTwo = new BasicCard(
-    "Who was the first president of the United States?", "George Washington");
-// "Who was the first president of the United States?"
+    "Phobos and Deimos are moons of what planet?", "Mars");
 //console.log(questionTwo.front); 
-// "George Washington"
 //console.log(questionTwo.back);
 
 // Question/Answer Three
 var questionThree = new BasicCard(
-    "Who was the first president of the United States?", "George Washington");
-// "Who was the first president of the United States?"
+    "What is the brightest planet in the night sky?", "Venus");
 //console.log(questionThree.front); 
-// "George Washington"
 //console.log(questionThree.back);
 
 // Start Inquire Prompt
