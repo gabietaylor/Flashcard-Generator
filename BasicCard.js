@@ -31,26 +31,23 @@ var questionThree = new BasicCard(
 // "George Washington"
 //console.log(questionThree.back);
 
+// Start Inquire Prompt
 inquirer.prompt([
-
     {
         type: 'input',
         message: questionOne.front,
         name: 'answerOne'
     },
-
     {
         type: 'input',
         message: questionTwo.front,
         name: 'answerTwo'
     },
-
     {
         type: 'input',
         message: questionThree.front,
         name: 'answerThree'
     }
-
 ]).then(function(inquirer) {
     if (inquirer.answerOne === questionOne.back) {
         console.log('Correct!')
@@ -69,5 +66,4 @@ inquirer.prompt([
     } else {
         console.log("Wrong!")
     }
-
 });
