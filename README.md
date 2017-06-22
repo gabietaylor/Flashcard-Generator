@@ -27,3 +27,5 @@ A flash card built this way has three parts:
 2. The **cloze deletion**. This is the text we've chosen to remove: _"George Washington"_.
 
 3. The **partial text**. This is what we get if we remove the **cloze deletion** from the **full text**: _"... was the first president of the United States._
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3bUd8WvjM_U" frameborder="0" allowfullscreen></iframe>
