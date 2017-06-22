@@ -62,18 +62,18 @@ inquirer.prompt([
     if (inquirer.answerOne === questionOneCloze.clozeDeletion) {
         console.log('Correct!')
     } else {
-        console.log('Wrong!')
+        console.log('Wrong! The answer is Jupiter!')
     }
 
     if (inquirer.answerTwo === questionTwoCloze.clozeDeletion) {
         console.log('Correct!')
     } else {
-        console.log('Wrong!')
+        console.log('Wrong! The answer is Mars!')
     }
 
     if (inquirer.answerThree === questionThreeCloze.clozeDeletion) {
         console.log('Correct!')
     } else {
-        console.log("Wrong!")
+        console.log("Wrong! The answer is Venus!")
     }
 });

@@ -42,18 +42,18 @@ inquirer.prompt([{
     if (inquirer.answerOne === questionOne.back) {
         console.log('Correct!')
     } else {
-        console.log('Wrong!')
+        console.log('Wrong! The answer is Jupiter!')
     }
 
     if (inquirer.answerTwo === questionTwo.back) {
         console.log('Correct!')
     } else {
-        console.log('Wrong!')
+        console.log('Wrong!  The answer is Mars!')
     }
 
     if (inquirer.answerThree === questionThree.back) {
         console.log('Correct!')
     } else {
-        console.log("Wrong!")
+        console.log("Wrong! The answer is Venus!")
     }
 });
