@@ -28,4 +28,6 @@ A flash card built this way has three parts:
 
 3. The **partial text**. This is what we get if we remove the **cloze deletion** from the **full text**: _"... was the first president of the United States._
 
+*Click on the picture for a video of the functioning app*
+
 [![Alt text](2017-06-22.png)](https://youtu.be/3bUd8WvjM_U)
